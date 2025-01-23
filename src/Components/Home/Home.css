@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.home {
+    margin-top: 60px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 5%;
+    background: linear-gradient(135deg, #6a5acd, #00bcd4);
+    color: white;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-content .cta-button {
+    padding: 15px 30px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hero-content .cta-button:hover {
+    background-color: #ff6347;
+}
+
+.hero-image img {
+    width: 100%;
+    /* Full width of its container */
+    max-width: 600px;
+    /* Set a maximum width */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+
+/* About Section */
+.about {
+    padding: 50px 5%;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    color: #6a5acd;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.learn-more-button {
+    padding: 10px 20px;
+    background-color: #ff6347; /* Match your theme's color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #483d8b; /* Darker shade for hover effect */
+  }
+  
+
+.FeaturesGrid {
+    display: flex; /* Enables side-by-side layout for child elements */
+    flex-wrap: wrap; /* Allows wrapping to the next row on smaller screens */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center align the cards within the section */
+}
+
+.FeaturesSection {
+    padding: 50px 5%;
+    /* Section padding */
+    background-color: #f4f4f4;
+    /* Light gray background */
+    text-align: center;
+}
+
+.FeaturesSection h2 {
+    font-size: 2.5rem;
+    color: #6a5acd;
+    /* Match the theme */
+    margin-bottom: 30px;
+}
+
+.FeaturesSection .FeaturesGrid {
+    display: flex;
+    /* Enable side-by-side layout */
+    flex-wrap: wrap;
+    /* Allow cards to wrap on smaller screens */
+    gap: 20px;
+    /* Space between cards */
+    justify-content: center;
+    /* Center-align the cards */
+}
+
+
+/* Call-to-Action Section */
+.cta {
+    padding: 50px 5%;
+    background-color: #6a5acd;
+    color: white;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta .cta-button {
+    padding: 15px 30px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cta .cta-button:hover {
+    background-color: #ff6347;
+}

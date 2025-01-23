@@ -1,0 +1,62 @@
+.footer {
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark text for contrast */
+    padding: 40px 20px;
+    border-top: 1px solid #dddddd; /* Optional: Light border at the top for separation */
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-section h2,
+  .footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #6a5acd; /* Deep purple for headings */
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    color: #555555; /* Subtle gray for better readability */
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #6a5acd; /* Match the heading color */
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #333333; /* Darker hover color for emphasis */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #999999; /* Light gray for the footer bottom text */
+  }
+  

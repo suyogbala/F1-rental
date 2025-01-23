@@ -1,0 +1,39 @@
+.student-page {
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+  }
+  
+  .student-welcome {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .student-welcome h1 {
+    font-size: 2.5rem;
+    color: #6a5acd;
+    margin-bottom: 10px;
+  }
+  
+  .student-welcome p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .student-apartments {
+    padding: 20px;
+  }
+  
+  .student-apartments h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .apartments-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  

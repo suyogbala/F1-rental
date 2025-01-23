@@ -1,0 +1,55 @@
+.FeaturesTitle {
+  background-color: #5fa8d3; /* Background color for each feature card */
+  padding: 20px; /* Space around content */
+  border-radius: 20px; /* Rounded corners */
+  max-width: 300px; /* Limit the width of each card */
+  text-align: center; /* Center the content */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Add shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  margin: 10px; /* Space between cards */
+}
+
+.FeaturesTitle:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.FeaturesTitle img {
+  width: 100px; /* Image width */
+  height: 100px; /* Image height */
+  object-fit: cover; /* Ensure the image fits inside */
+  border-radius: 50%; /* Make images circular */
+  background: #fff; /* Add a white background */
+  padding: 10px; /* Space inside the image border */
+  margin-bottom: 20px; /* Space below the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for the image */
+}
+
+.FeaturesTitle h2 {
+  font-size: 20px; /* Font size for title */
+  font-weight: 600; /* Bold font */
+  margin-bottom: 10px; /* Space below the title */
+  color: white; /* White title text */
+}
+
+.FeaturesTitle p {
+  font-size: 17px; /* Font size for subtitle */
+  color: darkslategray; /* Subtitle color */
+  margin-bottom: 15px; /* Space below the subtitle */
+}
+
+
+.FeaturesTitle button {
+  background-color: #ff6347; /* Button background color */
+  border: none; /* Remove border */
+  padding: 10px 15px; /* Button padding */
+  border-radius: 5px; /* Rounded corners for the button */
+  color: white; /* Button text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 15px; /* Font size for button text */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.FeaturesTitle button:hover {
+  background-color: #166373; /* Darker shade on hover */
+}
