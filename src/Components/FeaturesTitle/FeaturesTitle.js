@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./FeaturesTitle.css";
 
 function FeaturesTitle({ image, title, subtitle, buttonTitle, buttonLink }) {
@@ -7,9 +8,9 @@ function FeaturesTitle({ image, title, subtitle, buttonTitle, buttonLink }) {
       <img src={image} alt={title} />
       <h2>{title}</h2>
       <p>{subtitle}</p>
-      <button onClick={() => window.location.href = buttonLink}>
-        {buttonTitle}
-      </button>
+      <Link to={buttonLink}>
+        <button>{buttonTitle}</button>
+      </Link>
     </div>
   );
 }

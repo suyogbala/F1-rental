@@ -49,7 +49,7 @@ const Home = () => {
                         title="No SSN Required"
                         subtitle="Secure your apartment without the hassle of SSN or credit checks."
                         buttonTitle="Learn More"
-                        buttonLink="#"
+                        buttonLink="/contact"
                     />
                     <FeaturesTitle
                         image="https://thumbs.dreamstime.com/b/verified-stamp-round-isolated-transparent-background-347664485.jpg"
@@ -63,7 +63,7 @@ const Home = () => {
                         title="Personalized Support"
                         subtitle="We assist you every step of the way in your housing journey."
                         buttonTitle="Get Help"
-                        buttonLink="#"
+                        buttonLink="/contact"
                     />
                 </div>
             </section>
