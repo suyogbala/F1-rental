@@ -6,6 +6,7 @@ import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
+import PropertyOwner from "./Components/PropertyOwner/PropertyOwner";
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/student" element={<Student />} />
-        <Route path="/about" element={<About />} /> {/* Add About Route */}
+        <Route path="/propertyowner" element={<PropertyOwner />} /> 
+        <Route path="/about" element={<About />} /> 
       </Routes>
       <Footer />
     </Router>

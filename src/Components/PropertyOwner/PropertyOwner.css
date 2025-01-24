@@ -1,0 +1,95 @@
+/* General Styles for Property Owner Page */
+.property-owner-container {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 50px 5%;
+    color: #333;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background to match home page */
+}
+
+/* Banner Section */
+.property-owner-banner {
+    background: linear-gradient(135deg, #6a5acd, #00bcd4); /* Matching gradient */
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.property-owner-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.property-owner-banner p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Features Section */
+.property-owner-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.feature-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card h2 {
+    font-size: 1.5rem;
+    color: #6a5acd;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Section */
+.property-owner-footer {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #555;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.8;
+}
+
+/* Buttons */
+.cta-button {
+    padding: 15px 30px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff6347;
+}

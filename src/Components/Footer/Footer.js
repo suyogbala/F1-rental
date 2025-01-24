@@ -18,7 +18,7 @@ const Footer = () => {
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/student">International Students</Link></li>
-                        <li><Link to="/property-owner">Property Owners</Link></li>
+                        <li><Link to="/propertyowner">Property Owners</Link></li>
                         <li><Link to="/about">About Us</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
@@ -28,9 +28,10 @@ const Footer = () => {
                 <div className="footer-section">
                     <h3>Contact Us</h3>
                     <ul>
-                        <li>Email: support@f1rental.com</li>
-                        <li>Phone: +1 800 123 4567</li>
-                        <li>Address: 123 Housing St, Cityville</li>
+                        <li>Email: sachin1bala1@wmich.com</li>
+                        <li>Facebook: Sachin Bala </li>
+                        <li>Phone/whatsapp: +1 2697799757</li>
+                        <li>Address: 10346 blue bluff road, Austin, TX</li>
                     </ul>
                 </div>
             </div>
