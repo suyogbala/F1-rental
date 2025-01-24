@@ -28,7 +28,7 @@ const Footer = () => {
                 <div className="footer-section">
                     <h3>Contact Us</h3>
                     <ul>
-                        <li>Email: sachin1bala1@wmich.com</li>
+                        <li>Email: sachin.bala@wmich.com</li>
                         <li>Facebook: Sachin Bala </li>
                         <li>Phone/whatsapp: +1 2697799757</li>
                         <li>Address: 10346 blue bluff road, Austin, TX</li>
