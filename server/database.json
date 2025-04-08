@@ -1,0 +1,112 @@
+[
+  {
+    "title": "ds",
+    "address": "",
+    "price": "",
+    "description": "",
+    "questionnaire": "[object Object]",
+    "images": [
+      "1743812471562-c7ce948f-548e-4080-85dc-081c914520ea.jpg"
+    ],
+    "createdAt": "2025-04-05T00:21:11.568Z"
+  },
+  {
+    "title": "nepal",
+    "address": "1227 liitle dr",
+    "price": "1200",
+    "description": "nice home",
+    "questionnaire": "{\"What's the preferred lease duration?\":\"5\",\"Are utilities included in the rent?\":\"y\",\"What's your pet policy?\":\"y\",\"What amenities are included?\":\"y\",\"What's your policy on subletting?\":\"y\"}",
+    "images": [
+      "1743812863862-welcome_image_with_your_education_journey_begins.jpeg"
+    ],
+    "createdAt": "2025-04-05T00:27:43.886Z"
+  },
+  {
+    "title": "asfdasf",
+    "address": "afasf",
+    "price": "34",
+    "description": "srgsg",
+    "questionnaire": "{\"What's the preferred lease duration?\":\"rf\",\"Are utilities included in the rent?\":\"fr\",\"What's your pet policy?\":\"fr\",\"What amenities are included?\":\"grtfg\",\"What's your policy on subletting?\":\"th\"}",
+    "images": [
+      "1743815104744-website_image.png"
+    ],
+    "createdAt": "2025-04-05T01:05:04.761Z"
+  },
+  {
+    "title": "sad",
+    "address": "asda",
+    "price": "2334",
+    "description": "dsfsd",
+    "questionnaire": "{\"What's the preferred lease duration?\":\"sac\",\"Are utilities included in the rent?\":\"zxc\",\"What's your pet policy?\":\"dcv\",\"What amenities are included?\":\"sdv\",\"What's your policy on subletting?\":\"sv\"}",
+    "images": [
+      "1743872774764-logo.ico"
+    ],
+    "createdAt": "2025-04-05T17:06:14.797Z"
+  },
+  {
+    "title": "sad",
+    "address": "asda",
+    "price": "2334",
+    "description": "dsfsd",
+    "questionnaire": "{\"What's the preferred lease duration?\":\"sac\",\"Are utilities included in the rent?\":\"zxc\",\"What's your pet policy?\":\"dcv\",\"What amenities are included?\":\"sdv\",\"What's your policy on subletting?\":\"sv\"}",
+    "images": [
+      "1743872780304-logo.ico"
+    ],
+    "createdAt": "2025-04-05T17:06:20.307Z"
+  },
+  {
+    "title": "sad",
+    "address": "asda",
+    "price": "2334",
+    "description": "dsfsd",
+    "questionnaire": "{\"What's the preferred lease duration?\":\"sac\",\"Are utilities included in the rent?\":\"zxc\",\"What's your pet policy?\":\"dcv\",\"What amenities are included?\":\"sdv\",\"What's your policy on subletting?\":\"sv\"}",
+    "images": [
+      "1743872780922-logo.ico"
+    ],
+    "createdAt": "2025-04-05T17:06:20.924Z"
+  },
+  {
+    "title": "sad",
+    "address": "asda",
+    "price": "2334",
+    "description": "dsfsd",
+    "questionnaire": "{\"What's the preferred lease duration?\":\"sac\",\"Are utilities included in the rent?\":\"zxc\",\"What's your pet policy?\":\"dcv\",\"What amenities are included?\":\"sdv\",\"What's your policy on subletting?\":\"sv\"}",
+    "images": [
+      "1743872786597-logo.ico"
+    ],
+    "createdAt": "2025-04-05T17:06:26.600Z"
+  },
+  {
+    "title": "d",
+    "address": "dsf",
+    "price": "322",
+    "description": "dsvs",
+    "questionnaire": "{\"What's the preferred lease duration?\":\"dc\",\"Are utilities included in the rent?\":\"sv\",\"What's your pet policy?\":\"svd\",\"What amenities are included?\":\"svd\",\"What's your policy on subletting?\":\"sdv\"}",
+    "images": [
+      "1743872813073-original-5C4EEAB4-1A3D-4CD7-AB27-0D2D4A948D69 (1).jpeg"
+    ],
+    "createdAt": "2025-04-05T17:06:53.088Z"
+  },
+  {
+    "title": "djskbsjkvs",
+    "address": "dsdsf",
+    "price": "1244",
+    "description": "dfbdfbdfb",
+    "questionnaire": "{\"What's the preferred lease duration?\":\"gergs\",\"Are utilities included in the rent?\":\"ersbe\",\"What's your pet policy?\":\"erbr\",\"What amenities are included?\":\"ebe\",\"What's your policy on subletting?\":\"ebehe\"}",
+    "images": [
+      "1744080528959-paint.jpg"
+    ],
+    "createdAt": "2025-04-08T02:48:48.979Z"
+  },
+  {
+    "title": "Riya subedi",
+    "address": "1227 liitle dr",
+    "price": "15000000",
+    "description": "ramro xa",
+    "questionnaire": "{\"What's the preferred lease duration?\":\"8month\",\"Are utilities included in the rent?\":\"Yes\",\"What's your pet policy?\":\"Yes\",\"What amenities are included?\":\"Yes\",\"What's your policy on subletting?\":\"Yes\"}",
+    "images": [
+      "1744081425223-cropped-DSC07642 (3).JPG"
+    ],
+    "createdAt": "2025-04-08T03:03:45.241Z"
+  }
+]
