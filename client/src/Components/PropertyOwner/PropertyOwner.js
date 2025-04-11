@@ -223,7 +223,7 @@ const PropertyOwner = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:5051/api/listings', {
+      const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/api/listings`, {
         method: 'POST',
         body: submissionData
       });

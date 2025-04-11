@@ -5,14 +5,24 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
+const allowedOrigins = [
+  'http://localhost:3000',
+  'https://f1rental.netlify.app' 
+];
 
-// Middleware
 app.use(cors({
-  origin: 'http://localhost:3000', // Ensure this matches your React app URL
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 }));
+
 app.use(express.json());
 
 
@@ -75,6 +85,8 @@ app.post('/api/listings', upload.array('images'), (req, res) => {
   const db = fs.existsSync(dbPath) ? JSON.parse(fs.readFileSync(dbPath)) : [];
   db.push(listingData);
   fs.writeFileSync(dbPath, JSON.stringify(db, null, 2));
+  console.log('Updated database:', db); // Check if the database content is being updated
+
 
   console.log('Listing added to database:', listingData); // Debug log
 
