@@ -101,14 +101,14 @@ const Student = () => {
   useEffect(() => {
     const fetchApartments = async () => {
       try {
-        const response = await fetch('http://localhost:5051/api/listings');
+        const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/api/listings`);
         const data = await response.json();
   
         if (Array.isArray(data)) {
           // Prepend the image URL with the server path
           const updatedData = data.map((apartment) => ({
             ...apartment,
-            image: `http://localhost:5051/uploads/${apartment.images?.[0]}`, // Assuming 'images' contains filenames
+            image: `${process.env.REACT_APP_API_BASE_URL}/api/listings/uploads/${apartment.images?.[0]}`, // Assuming 'images' contains filenames
             specifications: apartment.specifications ?? [], // Default empty array for specifications
           }));
           setApartments(updatedData); // Set apartments with updated image URL
