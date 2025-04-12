@@ -18,7 +18,7 @@ const Student = () => {
           // Prepend the image URL with the server path
           const updatedData = data.map((apartment) => ({
             ...apartment,
-            image: `${process.env.REACT_APP_API_BASE_URL}/api/listings/uploads/${apartment.images?.[0]}`, // Assuming 'images' contains filenames
+            image: `${process.env.REACT_APP_API_BASE_URL}/uploads/${apartment.images?.[0]}`, // Assuming 'images' contains filenames
             specifications: apartment.specifications ?? [], // Default empty array for specifications
           }));
           setApartments(updatedData); // Set apartments with updated image URL
