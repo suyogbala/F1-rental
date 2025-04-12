@@ -5,9 +5,12 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
+app.set('trust proxy', true);
+
 const allowedOrigins = [
-  'http://localhost:3000',
-  'https://f1rental.netlify.app' 
+  'http://localhost:3000',               
+  'https://f1rental.netlify.app',        
+  'https://f1-rental.onrender.com', 
 ];
 
 app.use(cors({
